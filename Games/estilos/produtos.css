@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.area-produtos {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: url(../imagens/wallpaper-controles.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: black;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.389);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-radius: 12px;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 280px;
+  background-color: #71a0b8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.card .banner-imagem {
+  width: 100px;
+  height: 100px;
+}
+
+.banner-imagem img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.nome-produto {
+  font-family: "poppins", sans-serif;
+  color: #7027cd;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.descricao-produto {
+  font-size: 0.8rem;
+  padding-top: 5px;
+  text-align: justify;
+  color: #392a46;
+}
+
+.botoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.btn {
+  border: none;
+  padding: 6px 8px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+.outline {
+  background-color: #392a46;
+  color: white;
+  border: 2px solid #7027cd;
+  transition: all 0.3s ease;
+}
+
+.outline:hover {
+  background-color: white;
+  color: #392a46;
+  border: 2px solid #392a46;
+}
+
+.fill {
+  background-color: #7027cd;
+  color: rgb(251, 251, 251);
+  border: 2px solid #392a46;
+  transition: all 0.3 ease;
+}
+
+.fill:hover {
+  background-color: white;
+  color: #392a46;
+  border: 2px solid #7027cd;
+}
